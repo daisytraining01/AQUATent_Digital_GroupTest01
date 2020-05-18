@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WordPress Suite">
+  <test name="Create Blog Post Test">
+      <classes>
+      <class name="demo.Test1"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+  <test name="Delete Blog Post Test">    
+    <classes>
+       <class name="demo1.Test2"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
