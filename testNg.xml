@@ -13,4 +13,16 @@
     </classes>
      
   </test> <!-- Test -->
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="appium.vivo.KaustubhTestng"/>
+      </classes>
+  </test> <!-- Test --> 
+
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="appium.vivo.KaustubhTestngEmu"/>
+      </classes>
+  </test> <!-- Test --> 
+
 </suite> <!-- Suite -->
