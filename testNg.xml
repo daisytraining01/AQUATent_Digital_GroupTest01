@@ -14,3 +14,10 @@
      
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="Testng.App"/>
+      </classes>
+  </test> <!-- Test --> 
+  
+</suite> <!-- Suite -->
