@@ -11,6 +11,13 @@
     <classes>
        <class name="demo1.Test2"/>
     </classes>
+
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="wordPress_testNG.wordPress_testNG"/>
+      </classes>
+  </test> <!-- Test --> 
+
      
   </test> <!-- Test -->
 </suite> <!-- Suite -->
