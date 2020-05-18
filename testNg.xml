@@ -13,4 +13,18 @@
     </classes>
      
   </test> <!-- Test -->
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="NextGene.TestCaseOne_WordPress_Emulator"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+  <test name="Delete Blog Post Test">    
+    <classes>
+       <class name="NextGene.TwoScenarios_WordPress_TestNG"/>
+    </classes>
+     
+  </test> <!-- Test -->
+
+
 </suite> <!-- Suite -->
