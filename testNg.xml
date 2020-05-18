@@ -11,6 +11,19 @@
     <classes>
        <class name="demo1.Test2"/>
     </classes>
+ </test> <!-- Test -->
+
+<test name="Create Blog Post Test">
+      <classes>
+      <class name="mergecode.mergenew"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+  <test name="Delete Blog Post Test">    
+    <classes>
+       <class name="Newword.Wordnew"/>
+    </classes>
      
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->
