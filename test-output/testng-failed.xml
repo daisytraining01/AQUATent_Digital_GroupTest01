@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [WordPress Suite]">
-  <test thread-count="5" name="Create Blog Post Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.Test1">
+      <class name="TestNG.NewTest">
         <methods>
-          <include name="Logout"/>
-          <include name="openApp"/>
-          <include name="addBlogPosts"/>
+          <include name="sampleTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- demo.Test1 -->
+      </class> <!-- TestNG.NewTest -->
     </classes>
-  </test> <!-- Create Blog Post Test(failed) -->
-  <test thread-count="5" name="Delete Blog Post Test(failed)">
-    <classes>
-      <class name="demo1.Test2">
-        <methods>
-          <include name="Logout"/>
-          <include name="deletePost"/>
-          <include name="openApp"/>
-        </methods>
-      </class> <!-- demo1.Test2 -->
-    </classes>
-  </test> <!-- Delete Blog Post Test(failed) -->
-</suite> <!-- Failed suite [WordPress Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
