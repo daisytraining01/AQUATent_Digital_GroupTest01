@@ -1,0 +1,54 @@
+package TestNG.TestNG;
+
+
+
+public class ApkAppInfo {
+	
+	static AndroidDriver<MobileElement> driver;
+	
+	@BeforeMethod
+	public void beforeMethod() throws MalformedURLException
+	{
+		DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("deviceName", "OPPO F15");
+        cap.setCapability("udid", "id");
+        cap.setCapability("platformName", "Android");
+        cap.setCapability("platformVersion", "9");
+       
+        cap.setCapability("automationName", "UiAutomator1");
+       
+        cap.setCapability("appPackage", "----");
+        cap.setCapability("appActivity", "----");
+        
+        URL ur=new URL("http://127.0.0.1:4723/wd/hub");
+        
+        driver=new AndroidDriver<MobileElement>(ur,cap);
+	}
+	
+	
+	@Test
+	public void main() {
+		
+        System.out.print("Application Running");
+	
+        MobileElement el1 = (MobileElement) driver.findElementById("id"); (login button)
+        el1.click();
+        MobileElement el2 = (MobileElement) driver.findElementById("id"); (dismiss button)
+        el2.sendKeys("AirDroid");
+        MobileElement el3 = (MobileElement) driver.findElementByXPath("path"); (notification button)
+        el3.click();
+	MobileElement el3 = (MobileElement) driver.findElementByXPath("path"); (disable)
+        el3.click();
+	system.out.println("Notification disable")
+
+        	}
+	
+	@AfterTest
+	public void test2() {	
+
+		System.out.print("Application Done");
+		driver.quit();
+		
+	}
+
+}
